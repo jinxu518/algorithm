@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;W3D2Assignment/src/Test&apos; to &apos;ByMPNW&apos;" description="Rename resource &apos;Test&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Test" name="ByMPNW" stamp="1646856529471" updateReferences="true"/>
+</session>

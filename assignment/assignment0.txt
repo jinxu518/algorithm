@@ -1,0 +1,51 @@
+Problem 1: Prove by induction. 1^3 + 2^3 + ...+ n^3 = [n(n+1)/2]^2
+
+Base Case (n = 1):
+1^3 = [1(1+1)/2]^2
+1 = [1(2)/2]^2
+1 = (1)^2
+1 = 1
+ assume true for n = k
+LHS= 1^3 + 2^3 + ...+ k^3 
+RHS=[k(k+1)/2]^2
+show true for n = k+1
+LHS= [(k+1)^2(k+1+1)^2]/4
+RHS=[(k+1)(k+1+1)/2]^2=[(k+1)(k+2)/2]^2=[(k+1)^2(k+2)^2]/4
+[k^2(k+1)^2]/4 + (k+1)^3 
+=[k^2(k+1)^2+4(k+1)^3]/4 
+=[(k+1)^2(k+2)^2]/4  
+=[(k+1)^2(k+2)^2]/4 =RHS
+so  the statement is work
+
+
+Problem 2: What is the sum? 7 + 12 + 17 + ...+ 1087. You  must use correct formula.
+
+d = 12-7=5，
+1087=7+（n-1）* 5
+1087-7 = 5n-5
+1080+5 = 5n
+n=217
+
+(n/2)*[2a+(n-1)d]
+= (217/2)*[2*7+(217-1)*5]
+= (217/2) * [14 + 1080]
+= (217/2) * 1094
+= 118,103
+ 
+
+Problem 3: What is the sum? 1 + 1/3 + 1/9 + 1/27 + ... You  must use correct formula.
+
+sum = a / (1 - r),
+1 / (1 - 1/3) = 3/2
+
+Problem 4: Simplify the expression x - 3y/8 + 5z/7 into a fraction. That is expression_1/expression_2 form.
+ x - 3y/8 + 5z/7
+=x*(56/56)-(3y/8)*(7/7)+(5z/7)*(8/8)
+=(56x/56)-(21y/56)+(40z/56)
+=(56x - 21y + 40z) / 56
+
+Problem 5: What is log 3 to the base 9. 
+log9(3)
+9^(1/2) = 3
+log9(3) = 1/2
+
